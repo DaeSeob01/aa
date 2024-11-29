@@ -1,44 +1,131 @@
 ---
 layout: default
+title: Home
 ---
 
-# Welcome to TempGenie!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TempGenie - Homepage</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background-color: #e8491d;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f4f4f4;
+    }
+    header {
+      background: linear-gradient(to right, #34495e, #2c3e50);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .content-section {
+      margin-bottom: 30px;
+    }
+    .content-section h2 {
+      color: #e8491d;
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #e8491d;
+      padding-bottom: 5px;
+    }
+    .content-section p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    .content-section ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 30px;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="community.html">Community</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-Your all-in-one solution for generating temporary email, phone numbers, and passwords.
+  <header>
+    <h1>Welcome to TempGenie!</h1>
+    <p>Your all-in-one solution for generating temporary email, phone numbers, and passwords.</p>
+  </header>
 
----
+  <div class="container">
+    <div class="content-section">
+      <h2>About TempGenie</h2>
+      <p>TempGenie is an open-source project designed to help users generate temporary and secure credentials to protect their privacy while signing up for services online. With TempGenie, you can:</p>
+      <ul>
+        <li>Generate temporary emails, phone numbers, and passwords</li>
+        <li>Protect your personal information during sign-up</li>
+        <li>Prevent your real data from being exposed to third-party websites</li>
+      </ul>
+    </div>
 
-## About TempGenie
+    <div class="content-section">
+      <h2>Project Overview</h2>
+      <p>TempGenie combines several innovative features:</p>
+      <ul>
+        <li><strong>Temporary Email:</strong> Disposable email addresses to avoid spam.</li>
+        <li><strong>Temporary Phone Numbers:</strong> Privacy-protected verification numbers.</li>
+        <li><strong>Secure Password Suggestions:</strong> Generate strong and reliable passwords.</li>
+      </ul>
+    </div>
+  </div>
 
-TempGenie is an open-source project designed to help users generate temporary and secure credentials to protect their privacy while signing up for services online. With TempGenie, you can:
-
-- Generate temporary emails, phone numbers, and passwords
-- Protect your personal information during sign-up
-- Prevent your real data from being exposed to third-party websites
-
----
-
-## Project Overview
-
-TempGenie combines several innovative features:
-
-- **Temporary Email:** Disposable email addresses to avoid spam.
-- **Temporary Phone Numbers:** Privacy-protected verification numbers.
-- **Secure Password Suggestions:** Generate strong and reliable passwords.
-
----
-
-## Team Members
-
-- **백승협:** Front-end Developer
-- **최지원:** Website Designer
-- **전영현:** Back-end Developer
-- **신대섭:** Project Manager / Team Lead
-
----
-
-## Get Started
-
-Explore our features and learn how TempGenie can simplify your online experience while keeping your personal information safe.
-
-[Explore Features](features.html)
+  <footer>
+    <p>&copy; 2024 TempGenie. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
